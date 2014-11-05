@@ -11,18 +11,21 @@ class bunki {
 	   String kigou = new java.util.Scanner(System.in).nextLine();
 	   System.out.print("suuchi2=");
        int in1 = new java.util.Scanner(System.in).nextInt();
-       System.out.println(in0+","+in1);
-	   
-	   
+     
 	   // syori : kigou ni ouzite keisan
-	   // hinto : kigou ga + ka douka
-	   //
-	   
-	   //
-	   //
-	   
+	   // hinto : kigou ga + ka douka no if bun ha ika no toori
+	   //   if (kigou.equals("+"))
+	   if (kigou.equals("+"))
+	      kotae = in0 + in1;
+       if (kigou.equals("-"))
+	      kotae = in0 - in1;
+	   if (kigou.equals("*"))
+	      kotae = in0 * in1;
+       if (kigou.equals("/"))
+	      kotae = in0 / in1;
+	   if (kigou.equals("%"))
+	      kotae = in0 % in1;  
 	   // syutsu ryoku : keisan kekka wo syutsu ryoku
-	   
 	   // [suuchi1 keisankigou suuchi2 = kotae]
 	   System.out.println("" + in0 + kigou + in1 + "=" + kotae);
 	}
