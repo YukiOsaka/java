@@ -1,4 +1,4 @@
-class bunki {
+class fibo {
     public static void main(String args[])
 	{
 	    //fibo nacchi suuretsu(0~10)
