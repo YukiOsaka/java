@@ -2,21 +2,29 @@ class lucas {
     public static void main(String args[])
 	{
 	    //lucas suuretsu(0~100 kou made sansyutsu site, goukei wo hyouzi)
-		int lucas = 0;
+		BigInteger lucas = 0;
+		BigInteger lucas = new Big Integer("0");
 		////hairetu no suuchi
-		int [] F = new int[101];
+		BigInteger [] F = new BigInteger[101];
 		////0 koumoku no syokika
 		F[0] = 2;
 		////1 koumoku no syokika
 		F[1] = 1;
 		////2~10 kou no keisan
 		////2~10 made no ru-pu wo for bun de kaku
-		for (int n=2 ; n<=100 ; n++) {
-		     F[n] = F[n-1] + F[n-2];
-			 //sansyutsu sita atai wo goukei suru
-			 lucas = lucas + F[n];
-			 //tashita atai wo hyouzi
-			 System.out.println(integer.MAX_VALUE);
+		public static void main(String[] args); {
+           int max = 99;
+        for(int i=1;i<=max;i++){
+           System.out.println(i + " ==> "+ f(i));
+        }
+        }
+		
+		////for (BigInteger n=2 ; n<=100 ; n++) {
+		////     F[n] = F[n-1] + F[n-2];
+		////	 //sansyutsu sita atai wo goukei suru
+		////	 lucas = lucas + F[n];
+		////	 //tashita atai wo hyouzi
+		//// System.out.println(BigInteger.MAX_VALUE);
 		}
 		//// 1~10 kou made wo hyouji
 		////for (int n=1 ; n<=10 ; n++) {
