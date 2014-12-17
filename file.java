@@ -12,22 +12,25 @@ class file {
 	 
 	try{ 
 	File file = new File("tensu.txt");
-    FileWriter fw = new FileWriter(file);
-    BufferedWriter bw = new BufferedWriter(fw);
-    PrintWriter pw = new PrintWriter(bw);
+    FileReader fr = new FileReader(file);
+    BufferedReader br = new BufferedReader(fr);
+    ////PrintWriter pw = new PrintWriter(bw);
+	String datas = br.readLine();
+	String[] str1Ary = datas.split(" ");
+	System.out.println(datas);
 	
 	//100ko wansuu wo fairu ni kakidasu
-	for(int i=1; i<=100; i++)
-	{
+	////for(int i=1; i<=100; i++)
+	////{
 	    //rannsuu wo seisei
-	    int a = b.nextInt(101);
+	    ////int a = b.nextInt(101);
 	    //fairu ni atai wo kakikomu
-	    System.out.print(a+",");
+	    ////System.out.print(a+",");
 		//System.out.print(a);
 		
 		//tasizan...
 		
-	}
+	////}
 	 //fairu wo toziru
 	 }catch(Exception e)
 	 {
