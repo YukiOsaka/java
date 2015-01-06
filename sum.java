@@ -23,7 +23,6 @@ class sum {
 	    //idatas[i] ni, str1Ary[i] wo int gata ni kyasuto site dainyuu
 		idatas[i]=Integer.valueOf(str1Ary[i]).intValue();
 
-		
 	    System.out.println(str1Ary[i]);
 	}
 	
